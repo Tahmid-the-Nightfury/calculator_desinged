@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.card{
+    /* this is use for take everything in the middle */
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(15, 1, 1, 0.322); /* this is for creating box shadow*/
+    transition: 0.7s; /*transition is use for creating short animation type things*/
+    padding: 0;
+    
+    
+    
+}
+.card:hover{
+    /* This is for hoovering the card */
+    box-shadow: 0px 18px 32px 0px rgba(15, 1, 1, 0.322);
+}
+.cal-card #result{ 
+    /* This is for calculator input display */
+    height: 100px;
+    width: 335px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    letter-spacing: 2px;
+}
+.btn{
+/* this is for calculator button */
+    width: 83px;
+    height: 70px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(22, 19, 19);
+    color: blanchedalmond;
+    
+}
+.btn-style1{
+    background-color: rgb(129, 77, 179);
+    
+}
+.btn-style2{
+    background-color: rgb(4, 184, 4);
+}
+.btn:hover{
+    background-color: hotpink;
+}
